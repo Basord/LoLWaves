@@ -32,7 +32,7 @@ button:hover, .button:hover {
 
 
 
-@media all and (min-width: 642px ) {
+@media all and (min-width: 1200px ) {
 
   .logotxt{
   width: inherit;
@@ -65,6 +65,39 @@ button:hover, .button:hover {
   padding-bottom: .125em !important;
 }
 
+}
+@media all and (min-width: 642px) and (max-width: 1199px) {
+  .logotxt{
+  width: 300px;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #E7E7E7;
+    z-index: 9000;
+    padding: .5em 0;
+    border-top: .3em solid #04b49a;
+    border-bottom: .063em solid #d8d6d6;
+    height: 85px;
+    }
+
+.top-bar-section {
+  padding-top: 0.5em;
+  float: right;
+  
+}
+.menu-scroll{
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  height: 75px;
+  padding-top: .125em !important;
+  padding-bottom: .125em !important;
+}
 }
 
 @media all and (max-width: 641px ) {
